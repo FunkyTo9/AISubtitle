@@ -9,7 +9,7 @@ export default function Subtitles({
     const {t} = useTranslation("common");
     return (
         <div style={{display: "flex", flexDirection: "column", alignItems: "center"}}>
-            <SubTitleLine timeStamp={t("timestamp")} translation={t("translated")!} content={t("original")} />
+            <SubTitleLine timeStamp={t("time stamp")} translation={t("translated")!} content={t("original")} />
             {
                 nodes.map((node, index) => {
                     let transText;
