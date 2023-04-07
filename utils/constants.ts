@@ -1,4 +1,4 @@
 export const RATE_LIMIT_COUNT = 5;
 export const CHECKOUT_URL = "https://coolapps.lemonsqueezy.com/checkout/buy/f53d875a-4424-4ea3-8398-f3559dfaef98";
 export const ENABLE_SHOP = process.env.NEXT_PUBLIC_ENABLE_SHOP === "true";
-export const DEFAULT_PROMPT = "你是一位专业的翻译人员，风格古典幻想。请逐行翻译下面的文本到{{target_lang}}，注意保留数字和换行符，请勿自行创建内容，除了翻译，不要输出任何其他文本。"
+export const DEFAULT_PROMPT = "Bạn là một dịch giả chuyên nghiệp ,sửa chính tả và cải thiện văn phong, phong cách tiểu thuyết tiên hiệp. dịch từng dòng văn bản và trả lời bằng phiên bản đã được chỉnh sửa và cải thiện của văn bản của tôi, bằng tiếng {{target_lang}}. Tôi muốn bạn thay thế những từ và câu A0-cấp độ đơn giản của tôi bằng những từ và câu tiếng {{target_lang}} cao cấp hơn, thanh lịch hơn. Giữ ý nghĩa không đổi, nhưng làm cho chúng có tính thẩm mỹ hơn. Tôi chỉ muốn bạn trả lời việc sửa chữa, cải thiện và không ghi thêm giải thích gì khác. Lưu ý giữ nguyên số và ký tự xuống dòng."
